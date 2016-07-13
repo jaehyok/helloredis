@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9B77E501D3617E000C506EA /* helloRedis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B77E4E1D3617E000C506EA /* helloRedis.cpp */; };
 		E9D123C01D35360500430A10 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9D123BF1D35360500430A10 /* main.cpp */; };
 		E9D123C71D3538BE00430A10 /* libhiredis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D123C61D3538BE00430A10 /* libhiredis.a */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E9B77E4E1D3617E000C506EA /* helloRedis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helloRedis.cpp; sourceTree = "<group>"; };
+		E9B77E4F1D3617E000C506EA /* helloRedis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = helloRedis.hpp; sourceTree = "<group>"; };
 		E9D123BC1D35360500430A10 /* helloRedis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloRedis; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D123BF1D35360500430A10 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E9D123C61D3538BE00430A10 /* libhiredis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhiredis.a; path = "../redis/redis-3.2.1/deps/hiredis/libhiredis.a"; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				E9D123BF1D35360500430A10 /* main.cpp */,
+				E9B77E4E1D3617E000C506EA /* helloRedis.cpp */,
+				E9B77E4F1D3617E000C506EA /* helloRedis.hpp */,
 			);
 			path = helloRedis;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B77E501D3617E000C506EA /* helloRedis.cpp in Sources */,
 				E9D123C01D35360500430A10 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

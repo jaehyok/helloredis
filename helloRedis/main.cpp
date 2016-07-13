@@ -9,10 +9,12 @@
 #include <iostream>
 #include "hiredis.h"
 
+using namespace std;
+
 
 int main(int argc, const char * argv[]) {
 	// insert code here...
-	std::cout << "Hello, World!\n";
+	cout << "Hello, World!\n";
 	
 	redisContext *c = NULL;
 	redisReply *reply = NULL;
